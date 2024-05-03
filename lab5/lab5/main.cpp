@@ -1,6 +1,6 @@
 #include <iostream>
-#include "containers/myvector.cpp"
-#include "containers/myset.cpp"
+#include "containers/myvector.h"
+#include "containers/myset.h"
 
 int main() {
     setlocale(LC_ALL, "Russian");

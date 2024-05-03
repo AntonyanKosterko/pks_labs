@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
-#include "planet/planet.cpp"
-#include "party/party.cpp"
+#include "planet/planet.h"
+#include "party/party.h"
 
 using namespace std;
 

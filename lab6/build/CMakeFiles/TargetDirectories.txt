@@ -1,0 +1,9 @@
+/home/gospodin/labs/lab6/build/CMakeFiles/lab6.dir
+/home/gospodin/labs/lab6/build/CMakeFiles/edit_cache.dir
+/home/gospodin/labs/lab6/build/CMakeFiles/rebuild_cache.dir
+/home/gospodin/labs/lab6/build/polynomial/CMakeFiles/polynomial.dir
+/home/gospodin/labs/lab6/build/polynomial/CMakeFiles/edit_cache.dir
+/home/gospodin/labs/lab6/build/polynomial/CMakeFiles/rebuild_cache.dir
+/home/gospodin/labs/lab6/build/term/CMakeFiles/term.dir
+/home/gospodin/labs/lab6/build/term/CMakeFiles/edit_cache.dir
+/home/gospodin/labs/lab6/build/term/CMakeFiles/rebuild_cache.dir

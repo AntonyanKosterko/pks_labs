@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "classes/classes.cpp"
+#include "classes/classes.h"
 
 int main() {
     setlocale(LC_ALL, "Russian");

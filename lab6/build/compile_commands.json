@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/gospodin/labs/lab6/build",
+  "command": "/usr/bin/g++ -I/home/gospodin/labs/lab6/polynomial -I/home/gospodin/labs/lab6/term -g -o CMakeFiles/lab6.dir/main.cpp.o -c /home/gospodin/labs/lab6/main.cpp",
+  "file": "/home/gospodin/labs/lab6/main.cpp",
+  "output": "CMakeFiles/lab6.dir/main.cpp.o"
+},
+{
+  "directory": "/home/gospodin/labs/lab6/build",
+  "command": "/usr/bin/g++ -I/home/gospodin/labs/lab6/polynomial -I/home/gospodin/labs/lab6/term -g -o polynomial/CMakeFiles/polynomial.dir/polynomial.cpp.o -c /home/gospodin/labs/lab6/polynomial/polynomial.cpp",
+  "file": "/home/gospodin/labs/lab6/polynomial/polynomial.cpp",
+  "output": "polynomial/CMakeFiles/polynomial.dir/polynomial.cpp.o"
+},
+{
+  "directory": "/home/gospodin/labs/lab6/build",
+  "command": "/usr/bin/g++ -I/home/gospodin/labs/lab6/term -g -o term/CMakeFiles/term.dir/term.cpp.o -c /home/gospodin/labs/lab6/term/term.cpp",
+  "file": "/home/gospodin/labs/lab6/term/term.cpp",
+  "output": "term/CMakeFiles/term.dir/term.cpp.o"
+}
+]

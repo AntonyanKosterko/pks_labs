@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "MyStack/MyStack.cpp"
+#include "MyStack/MyStack.h"
 
 using namespace std;
 

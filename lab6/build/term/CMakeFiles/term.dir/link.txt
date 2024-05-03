@@ -1,0 +1,2 @@
+C:/gcc/bin/ar.exe qc libterm.a CMakeFiles/term.dir/term.cpp.obj
+C:/gcc/bin/ranlib.exe libterm.a

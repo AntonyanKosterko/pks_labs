@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstring>
-#include "fraction/fraction.cpp"
+#include "fraction/fraction.h"
 
 void demo(){
     char* s = "-4/18";
