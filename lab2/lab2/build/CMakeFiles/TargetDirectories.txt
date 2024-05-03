@@ -1,0 +1,9 @@
+C:/labs/lab2/build/CMakeFiles/lab2.dir
+C:/labs/lab2/build/CMakeFiles/edit_cache.dir
+C:/labs/lab2/build/CMakeFiles/rebuild_cache.dir
+C:/labs/lab2/build/planet/CMakeFiles/planet.dir
+C:/labs/lab2/build/planet/CMakeFiles/edit_cache.dir
+C:/labs/lab2/build/planet/CMakeFiles/rebuild_cache.dir
+C:/labs/lab2/build/bus/CMakeFiles/bus.dir
+C:/labs/lab2/build/bus/CMakeFiles/edit_cache.dir
+C:/labs/lab2/build/bus/CMakeFiles/rebuild_cache.dir

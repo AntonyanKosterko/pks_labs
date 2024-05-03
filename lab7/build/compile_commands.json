@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/gospodin/labs/lab7/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/lab7.dir/main.cpp.o -c /home/gospodin/labs/lab7/main.cpp",
+  "file": "/home/gospodin/labs/lab7/main.cpp",
+  "output": "CMakeFiles/lab7.dir/main.cpp.o"
+},
+{
+  "directory": "/home/gospodin/labs/lab7/build",
+  "command": "/usr/bin/g++ -g -o classes/CMakeFiles/classes.dir/classes.cpp.o -c /home/gospodin/labs/lab7/classes/classes.cpp",
+  "file": "/home/gospodin/labs/lab7/classes/classes.cpp",
+  "output": "classes/CMakeFiles/classes.dir/classes.cpp.o"
+}
+]

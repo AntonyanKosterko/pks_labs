@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/labs/lab5/build",
+  "command": "c:/gcc/bin/g++.exe   -g -o CMakeFiles/lab5.dir/main.cpp.obj -c C:/labs/lab5/main.cpp",
+  "file": "C:/labs/lab5/main.cpp",
+  "output": "CMakeFiles/lab5.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/labs/lab5/build/containers",
+  "command": "c:/gcc/bin/g++.exe   -g -o CMakeFiles/containers.dir/myset.cpp.obj -c C:/labs/lab5/containers/myset.cpp",
+  "file": "C:/labs/lab5/containers/myset.cpp",
+  "output": "containers/CMakeFiles/containers.dir/myset.cpp.obj"
+},
+{
+  "directory": "C:/labs/lab5/build/containers",
+  "command": "c:/gcc/bin/g++.exe   -g -o CMakeFiles/containers.dir/myvector.cpp.obj -c C:/labs/lab5/containers/myvector.cpp",
+  "file": "C:/labs/lab5/containers/myvector.cpp",
+  "output": "containers/CMakeFiles/containers.dir/myvector.cpp.obj"
+}
+]

@@ -1,0 +1,2 @@
+C:/gcc/bin/ar.exe qc libplanet.a CMakeFiles/planet.dir/planet.cpp.obj
+C:/gcc/bin/ranlib.exe libplanet.a

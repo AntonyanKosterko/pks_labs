@@ -1,0 +1,6 @@
+C:/labs/lab4/build/CMakeFiles/lab4.dir
+C:/labs/lab4/build/CMakeFiles/edit_cache.dir
+C:/labs/lab4/build/CMakeFiles/rebuild_cache.dir
+C:/labs/lab4/build/MyStack/CMakeFiles/MyStack.dir
+C:/labs/lab4/build/MyStack/CMakeFiles/edit_cache.dir
+C:/labs/lab4/build/MyStack/CMakeFiles/rebuild_cache.dir

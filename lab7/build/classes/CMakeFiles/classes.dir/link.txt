@@ -1,0 +1,2 @@
+C:/gcc/bin/ar.exe qc libclasses.a CMakeFiles/classes.dir/classes.cpp.obj
+C:/gcc/bin/ranlib.exe libclasses.a

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build",
+  "command": "C:\\GSS\\MinGW\\bin\\g++.exe -g -o CMakeFiles\\lab2.dir\\main.cpp.obj -c E:\\Courses\\BAUMAN\\sem2\\PKS\\lab2_nick2\\lab2\\main.cpp",
+  "file": "E:\\Courses\\BAUMAN\\sem2\\PKS\\lab2_nick2\\lab2\\main.cpp",
+  "output": "CMakeFiles\\lab2.dir\\main.cpp.obj"
+},
+{
+  "directory": "E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build",
+  "command": "C:\\GSS\\MinGW\\bin\\g++.exe -g -o planet\\CMakeFiles\\planet.dir\\planet.cpp.obj -c E:\\Courses\\BAUMAN\\sem2\\PKS\\lab2_nick2\\lab2\\planet\\planet.cpp",
+  "file": "E:\\Courses\\BAUMAN\\sem2\\PKS\\lab2_nick2\\lab2\\planet\\planet.cpp",
+  "output": "planet\\CMakeFiles\\planet.dir\\planet.cpp.obj"
+},
+{
+  "directory": "E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build",
+  "command": "C:\\GSS\\MinGW\\bin\\g++.exe -g -o bus\\CMakeFiles\\bus.dir\\bus.cpp.obj -c E:\\Courses\\BAUMAN\\sem2\\PKS\\lab2_nick2\\lab2\\bus\\bus.cpp",
+  "file": "E:\\Courses\\BAUMAN\\sem2\\PKS\\lab2_nick2\\lab2\\bus\\bus.cpp",
+  "output": "bus\\CMakeFiles\\bus.dir\\bus.cpp.obj"
+}
+]

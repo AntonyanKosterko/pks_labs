@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/labs/lab2/build",
+  "command": "c:/gcc/bin/g++.exe   -g -o CMakeFiles/lab2.dir/main.cpp.obj -c C:/labs/lab2/main.cpp",
+  "file": "C:/labs/lab2/main.cpp",
+  "output": "CMakeFiles/lab2.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/labs/lab2/build/planet",
+  "command": "c:/gcc/bin/g++.exe   -g -o CMakeFiles/planet.dir/planet.cpp.obj -c C:/labs/lab2/planet/planet.cpp",
+  "file": "C:/labs/lab2/planet/planet.cpp",
+  "output": "planet/CMakeFiles/planet.dir/planet.cpp.obj"
+},
+{
+  "directory": "C:/labs/lab2/build/bus",
+  "command": "c:/gcc/bin/g++.exe   -g -o CMakeFiles/bus.dir/bus.cpp.obj -c C:/labs/lab2/bus/bus.cpp",
+  "file": "C:/labs/lab2/bus/bus.cpp",
+  "output": "bus/CMakeFiles/bus.dir/bus.cpp.obj"
+}
+]

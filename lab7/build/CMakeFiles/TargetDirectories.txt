@@ -1,0 +1,6 @@
+/home/gospodin/labs/lab7/build/CMakeFiles/lab7.dir
+/home/gospodin/labs/lab7/build/CMakeFiles/edit_cache.dir
+/home/gospodin/labs/lab7/build/CMakeFiles/rebuild_cache.dir
+/home/gospodin/labs/lab7/build/classes/CMakeFiles/classes.dir
+/home/gospodin/labs/lab7/build/classes/CMakeFiles/edit_cache.dir
+/home/gospodin/labs/lab7/build/classes/CMakeFiles/rebuild_cache.dir

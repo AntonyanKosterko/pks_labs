@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/labs/lab3/build",
+  "command": "c:/gcc/bin/g++.exe   -g -o CMakeFiles/lab3.dir/main.cpp.obj -c C:/labs/lab3/main.cpp",
+  "file": "C:/labs/lab3/main.cpp",
+  "output": "CMakeFiles/lab3.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/labs/lab3/build/fraction",
+  "command": "c:/gcc/bin/g++.exe   -g -o CMakeFiles/fraction.dir/fraction.cpp.obj -c C:/labs/lab3/fraction/fraction.cpp",
+  "file": "C:/labs/lab3/fraction/fraction.cpp",
+  "output": "fraction/CMakeFiles/fraction.dir/fraction.cpp.obj"
+}
+]

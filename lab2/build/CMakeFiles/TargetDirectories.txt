@@ -1,0 +1,9 @@
+E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build/CMakeFiles/lab2.dir
+E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build/CMakeFiles/edit_cache.dir
+E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build/CMakeFiles/rebuild_cache.dir
+E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build/planet/CMakeFiles/planet.dir
+E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build/planet/CMakeFiles/edit_cache.dir
+E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build/planet/CMakeFiles/rebuild_cache.dir
+E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build/bus/CMakeFiles/bus.dir
+E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build/bus/CMakeFiles/edit_cache.dir
+E:/Courses/BAUMAN/sem2/PKS/lab2_nick2/build/bus/CMakeFiles/rebuild_cache.dir

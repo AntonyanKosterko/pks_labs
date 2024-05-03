@@ -1,0 +1,6 @@
+C:/labs/lab5/build/CMakeFiles/lab5.dir
+C:/labs/lab5/build/CMakeFiles/edit_cache.dir
+C:/labs/lab5/build/CMakeFiles/rebuild_cache.dir
+C:/labs/lab5/build/containers/CMakeFiles/containers.dir
+C:/labs/lab5/build/containers/CMakeFiles/edit_cache.dir
+C:/labs/lab5/build/containers/CMakeFiles/rebuild_cache.dir

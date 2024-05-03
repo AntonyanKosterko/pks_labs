@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/labs/lab4/build",
+  "command": "c:/gcc/bin/g++.exe   -g -o CMakeFiles/lab4.dir/main.cpp.obj -c C:/labs/lab4/main.cpp",
+  "file": "C:/labs/lab4/main.cpp",
+  "output": "CMakeFiles/lab4.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/labs/lab4/build/MyStack",
+  "command": "c:/gcc/bin/g++.exe   -g -o CMakeFiles/MyStack.dir/MyStack.cpp.obj -c C:/labs/lab4/MyStack/MyStack.cpp",
+  "file": "C:/labs/lab4/MyStack/MyStack.cpp",
+  "output": "MyStack/CMakeFiles/MyStack.dir/MyStack.cpp.obj"
+}
+]
