@@ -163,3 +163,44 @@ std::ostream& operator<<(std::ostream& out, MySet<T>& s) {
     }
     return out;
 }
+
+// Специализация для char*
+
+template <>
+MySet<char*>::MySet(char* el) : MyVector<char*>(el) {}
+
+template <>
+MySet<char*>::MySet() : MyVector<char*>() {}
+
+template <>
+MySet<char*>& MySet<char*>::operator=(const MySet<char*>& s) {
+    if (this != &s) {
+        MyVector<char*>::operator=(s);
+    }
+    return *this;
+}
+
+template <>
+void MySet<char*>::add_element(char* el) {
+    if (!is_element(el)) {
+        MyVector<char*>::add_element(el);
+        sort();
+    }
+}
+
+template <>
+bool MySet<char*>::q_find(char* item) {
+    int l = 0;
+    int r = this->size - 1;
+    while (l <= r) {
+        int mid = (l + r)/2;
+        if (strcmp(this->pdata[mid], item) == 0) {
+            return true;
+        } else if (strcmp(this->pdata[mid], item) < 0) {
+            l = mid + 1;
+        } else {
+            r = mid - 1;
+        }
+    }
+    return false;
+}
