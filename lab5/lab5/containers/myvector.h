@@ -5,30 +5,31 @@
 
 const int MAX_SIZE = 5;
 
+template <typename T>
 class MyVector {
 public:
-    MyVector(char *el, int maxsz);
-    MyVector(char *el);
+    MyVector(T el, int maxsz);
+    MyVector(T el);
     MyVector();
-    MyVector(MyVector &v);
+    MyVector(const MyVector &v);
 
     ~MyVector();
 
-    void add_element(char* item);
+    void add_element(T item);
     bool delete_element(int index);
-    char *operator[](int i);
+    T& operator[](int i);
     void sort();
 
     int Size();
     int Maxsize();
-    int find(char *el);
+    int find(T el);
 
-    MyVector &operator=(MyVector &v);
+    MyVector &operator=(const MyVector &v);
     friend std::ostream &operator<<(std::ostream &out, MyVector &v);
 protected:
     int maxsize;
     int size;
-    char **pdata;
+    T *pdata;
 private:
     void resize(int new_maxsize);
 };

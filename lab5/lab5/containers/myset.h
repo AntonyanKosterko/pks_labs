@@ -4,9 +4,10 @@
 #include <iostream>
 #include "myvector.h"
 
-class MySet : public MyVector {
+template <typename T>
+class MySet : public MyVector<T> {
 public:
-    MySet(char *el);    
+    MySet(T el);    
     MySet();
 
     MySet& operator=(const MySet& s);
@@ -20,11 +21,11 @@ public:
     MySet &operator-=(MySet &s);
     MySet &operator*=(MySet &s);
 
-    void add_element(char *el);
-    void delete_element(char *el);
-    bool is_element(char *el);
+    void add_element(T el);
+    void delete_element(T el);
+    bool is_element(T el);
 private:
-    bool q_find(char* item);
+    bool q_find(T item);
 };
 
 #endif //INHERITANCE_MYSET_H

@@ -1,67 +1,78 @@
 #include <bits/stdc++.h>
 #include "myvector.h"
 
-MyVector::MyVector(char *el, int maxsz) {
-    maxsize = maxsz;
-    size = 1;
-    pdata = new char*[maxsize];
-    pdata[0] = el;
+
+template <typename T>
+MyVector<T>::MyVector(T el, int maxsz) {
+    this->maxsize = maxsz;
+    this->size = 1;
+    this->pdata = new T[this->maxsize];
+    this->pdata[0] = el;
 }
 
-MyVector::MyVector(char *el) {
-    maxsize = MAX_SIZE;
-    size = 1;
-    pdata = new char*[maxsize];
-    pdata[0] = el;
+template <typename T>
+MyVector<T>::MyVector(T el) {
+    this->maxsize = MAX_SIZE;
+    this->size = 1;
+    this->pdata = new T[this->maxsize];
+    this->pdata[0] = el;
 }
 
-MyVector::MyVector() {
-    maxsize = MAX_SIZE;
-    size = 1;
-    pdata = new char*[maxsize];
-    pdata[0] = NULL;
+template <typename T>
+MyVector<T>::MyVector() {
+    this->maxsize = MAX_SIZE;
+    this->size = 1;
+    this->pdata = new T[this->maxsize];
+    this->pdata[0] = NULL;
 }
 
-MyVector::MyVector(MyVector &v) {
+template <typename T>
+MyVector<T>::MyVector(const MyVector &v) {
         maxsize = v.maxsize;
         size = v.size;
-        pdata = new char*[maxsize];
+        pdata = new T[maxsize];
         for (int i = 0; i < size; ++i) {
             pdata[i] = v.pdata[i];
         }
     }
 
-MyVector::~MyVector() {
+template <typename T>
+MyVector<T>::~MyVector() {
     delete[] pdata;
 }
 
-MyVector& MyVector::operator=(MyVector& v) {
+template <typename T>
+MyVector<T>& MyVector<T>::operator=(const MyVector& v) {
     delete[] pdata;
     maxsize = v.maxsize;
     size = v.size;
-    pdata = new char*[maxsize];
+    pdata = new T[maxsize];
     for (int i = 0; i < size; ++i) {
         pdata[i] = v.pdata[i];
     }
     return *this;
 }
 
-char* MyVector::operator[](int i) {
+template <typename T>
+T& MyVector<T>::operator[](int i) {
     if (i < 0 || i >= size) {
         throw std::out_of_range("Index out of range");
     }
     return pdata[i];
 }
 
-int MyVector::Size() {
+template <typename T>
+int MyVector<T>::Size() {
     return size;
 }
 
-int MyVector::Maxsize() {
+template <typename T>
+int MyVector<T>::Maxsize() {
     return maxsize;
 }
 
-void MyVector::add_element(char* item) {
+template <typename T>
+void MyVector<T>::add_element(T item) {
     if (size == maxsize) {
         resize(maxsize * 2);
     }else if(size < maxsize / 4){
@@ -71,7 +82,8 @@ void MyVector::add_element(char* item) {
     size++;
 }
 
-bool MyVector::delete_element(int index) {
+template <typename T>
+bool MyVector<T>::delete_element(int index) {
     if (index < 0 || index >= size) {
         throw std::out_of_range("Index out of range");
     }
@@ -81,12 +93,14 @@ bool MyVector::delete_element(int index) {
     size--;
 }
 
-void MyVector::sort() {
+template <typename T>
+void MyVector<T>::sort() {
     std::sort(pdata, pdata + size);
 }
 
-void MyVector::resize(int new_maxsize) {
-    char** new_pdata = new char*[new_maxsize];
+template <typename T>
+void MyVector<T>::resize(int new_maxsize) {
+    T* new_pdata = new T[new_maxsize];
     for (int i = 0; i < size; ++i) {
         new_pdata[i] = pdata[i];
     }
@@ -95,8 +109,8 @@ void MyVector::resize(int new_maxsize) {
     maxsize = new_maxsize;
 }
 
-
-std::ostream& operator<<(std::ostream& out, MyVector& v) {
+template <typename T>
+std::ostream& operator<<(std::ostream& out, MyVector<T>& v) {
     out << "MyVector: ";
     for (int i = 0; i < v.size; ++i) {
         out << v.pdata[i] << " ";

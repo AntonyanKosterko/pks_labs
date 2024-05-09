@@ -14,7 +14,7 @@ int main() {
     for (int i = 0; i < MAX_SIZE; i++)
         v1.delete_element(0);
     std::cout << "Vector v1: " << v1 << std::endl;
-    MySet s("Yes"), s1, s2;
+    MySet s("Yes"), s1("Yes"), s2("Yes");
     s.add_element("A");
     s.add_element("No");
     char *str = "Hello!";
